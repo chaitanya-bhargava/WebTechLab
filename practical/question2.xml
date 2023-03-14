@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BankAccountDetails>
+    <AccountNumber>875827568765</AccountNumber>
+    <AccountType>Savings</AccountType>
+    <Balance>Rs. 50000</Balance>
+    <Customer_Id>101</Customer_Id>
+    <Customer_Name>Chaitanya Bhargava</Customer_Name>
+</BankAccountDetails>

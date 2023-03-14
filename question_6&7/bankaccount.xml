@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bankaccount.xsl"?>
+<BankAccount>
+    <BankAccountDetails>
+        <AccountNumber>875827568765</AccountNumber>
+        <AccountType>Savings</AccountType>
+        <Balance>Rs. 50000</Balance>
+        <Customer_Id>101</Customer_Id>
+        <CustomerName>Chaitanya Bhargava</CustomerName>
+    </BankAccountDetails>
+    <BankAccountDetails>
+        <AccountNumber>398284792525</AccountNumber>
+        <AccountType>Current</AccountType>
+        <Balance>Rs. 45000</Balance>
+        <Customer_Id>102</Customer_Id>
+        <CustomerName>Aryan Goyal</CustomerName>
+    </BankAccountDetails>
+    <BankAccountDetails>
+        <AccountNumber>989836787384</AccountNumber>
+        <AccountType>Fixed Deposit</AccountType>
+        <Balance>Rs. 70000</Balance>
+        <Customer_Id>103</Customer_Id>
+        <CustomerName>Saksham Uppal</CustomerName>
+    </BankAccountDetails>
+    <BankAccountDetails>
+        <AccountNumber>398693672865</AccountNumber>
+        <AccountType>Savings</AccountType>
+        <Balance>Rs. 90000</Balance>
+        <Customer_Id>104</Customer_Id>
+        <CustomerName>Ankit Kumar</CustomerName>
+    </BankAccountDetails>
+</BankAccount>

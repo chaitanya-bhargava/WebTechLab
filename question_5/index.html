@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Question-5</title>
+        <style>
+            img {
+                width: 600px;
+            }
+        </style>
+    </head>
+    <script>
+        function getRandomImage() {
+        var randomImage = new Array();
+        randomImage[0]="img1.jpg";
+        randomImage[1]="img2.jpg";
+        randomImage[2]="img3.jpg";
+        randomImage[3]="img4.jpg";
+        randomImage[4]="img5.jpg";
+        var number = Math.floor(Math.random() * randomImage.length);
+        return (document.getElementById("result").innerHTML='<img src="' + randomImage[number] + '" />');
+        }
+    </script>
+    <body>
+        <center><h1>Random Image Generator</h1></center>
+        <h3>Click the button to generate random images</h3>
+        <button onclick="getRandomImage()">Generate Image</button>
+        <br>
+        <br>
+        <div id="result" align="center"></div>
+    </body>
+</html>
